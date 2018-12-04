@@ -1,11 +1,19 @@
 Package: ritar
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Title: Tools for RITA registries.
+Version: 0.1.9000
+Author: Diego A. Garcilazo
+Maintainer: The package maintainer <diego_garcilazo@yahoo.com.ar>
+Description: Tools for RITA registries.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    dplyr,
+    purrr,
+    lubridate,
+    forcats,
+    tidyr,
+    readr,
+    magrittr
+RoxygenNote: 6.1.1
